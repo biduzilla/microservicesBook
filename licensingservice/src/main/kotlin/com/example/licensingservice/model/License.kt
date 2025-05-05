@@ -4,13 +4,14 @@ import jakarta.persistence.Column
 import jakarta.persistence.Entity
 import jakarta.persistence.Id
 import jakarta.persistence.Table
+import java.util.UUID
 
 @Entity
 @Table(name = "licenses")
 data class License(
     @Id
     @Column(name = "license_id", nullable = false)
-    val licenseId: String,
+    val licenseId: String = UUID.randomUUID().toString(),
 
     @Column(name = "organization_id", nullable = false)
     val organizationId: String,
