@@ -8,4 +8,5 @@ spring:
     config:
       server:
         native:
-          searchLocations: file:///Users/johncarnell1/book/native_cloud_apps/ch4-config-managment/confsvr/src/main/resources/config/licensingservice
+          search-locations: file:///C:/code/programacao/kotlin/microservicesBook/confsvr/src/main/resources/config/licensingservice
+

@@ -1,18 +1,19 @@
 tracer:
   property: "I AM THE DEFAULT"
+
 spring:
   jpa:
-    database: "POSTGRESQL"
-    platform: "postgres"
-    show-sql: "true"
-    driverClassName: "org.postgresql.Driver"
+    database: POSTGRESQL
+    platform: postgres
+    show-sql: true
+    hibernate:
+      ddl-auto: update
     properties:
       hibernate:
-        dialect:"org.hibernate.dialect.PostgreSQLDialect"
-  datasource:
-    url: "jdbc:postgresql://database:5432/eagle_eye_local"
-    username: "postgres"
-    password: "p0stgr@s"
-    testWhileIdle: "true"
-    validationQuery: "SELECT 1"
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
+  datasource:
+    url: jdbc:postgresql://localhost:5432/my_database
+    username: admin
+    password: "senha123"
+    driver-class-name: org.postgresql.Driver

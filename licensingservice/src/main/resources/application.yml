@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: licensingservice
+  config:
+    import: "configserver:http://localhost:8888"
+  cloud:
+    config:
+      fail-fast: true
+      retry:
+        max-attempts: 3

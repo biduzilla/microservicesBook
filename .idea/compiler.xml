@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservicesBook" />
         <module name="confsvr" />
+        <module name="licensingservice" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicesBook" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="confsvr" options="-parameters" />
+      <module name="licensingservice" options="-parameters" />
       <module name="microservicesBook" options="-parameters" />
     </option>
   </component>

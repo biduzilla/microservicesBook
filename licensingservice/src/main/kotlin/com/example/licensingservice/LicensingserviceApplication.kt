@@ -1,11 +1,11 @@
-package com.example.microservicesBook
+package com.example.licensingservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class MicroservicesBookApplication
+class LicensingserviceApplication
 
 fun main(args: Array<String>) {
-	runApplication<MicroservicesBookApplication>(*args)
+	runApplication<LicensingserviceApplication>(*args)
 }
