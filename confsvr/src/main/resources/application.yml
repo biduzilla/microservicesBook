@@ -3,10 +3,14 @@ server:
 
 spring:
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: file:///C:/code/programacao/kotlin/microservicesBook/confsvr/src/main/resources/config/licensingservice
-
+        git:
+          uri: "https://github.com/biduzilla/microservicesBook.git"
+          search-paths: "confsvr/src/main/resources/config/licensingservice"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
