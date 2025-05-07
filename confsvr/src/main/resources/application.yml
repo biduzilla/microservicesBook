@@ -9,7 +9,7 @@ spring:
       server:
         git:
           uri: "https://github.com/biduzilla/microservicesBook.git"
-          search-paths: "confsvr/src/main/resources/config/licensingservice"
+          search-paths: "confsvr/src/main/resources/config/licensing-service"
           default-label: main
           timeout: 5
           clone-on-start: true

@@ -1,4 +1,4 @@
-package com.example.licensingservice
+package com.example.licensing_service
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -6,8 +6,8 @@ import org.springframework.cloud.context.config.annotation.RefreshScope
 
 @SpringBootApplication
 @RefreshScope
-class LicensingserviceApplication
+class LicensingServiceApplication
 
 fun main(args: Array<String>) {
-	runApplication<LicensingserviceApplication>(*args)
+	runApplication<LicensingServiceApplication>(*args)
 }

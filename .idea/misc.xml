@@ -7,7 +7,15 @@
         <option value="$PROJECT_DIR$/confsvr/pom.xml" />
         <option value="$PROJECT_DIR$/microservicesBook/pom.xml" />
         <option value="$PROJECT_DIR$/licensingservice/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekasvr/pom.xml" />
+        <option value="$PROJECT_DIR$/licensing-service/pom.xml" />
+        <option value="$PROJECT_DIR$/organization-service/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/licensingservice/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
